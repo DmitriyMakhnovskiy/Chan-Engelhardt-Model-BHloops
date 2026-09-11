@@ -1,0 +1,5 @@
+# Magnetic material parameters
+
+Bs=1.6
+Br=1.2
+Hc=120.0

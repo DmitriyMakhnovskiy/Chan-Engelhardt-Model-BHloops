@@ -1,0 +1,77 @@
+# ============================================================
+# MAGNETIC MATERIAL PARAMETERS
+# ============================================================
+
+# Saturation magnetic flux density, Bs [T]
+Bs=1.9
+
+# Remanent magnetic flux density, Br [T]
+Br=1.0
+
+# Coercive magnetic field strength, Hc [A/m]
+Hc=25.0
+
+
+# ============================================================
+# MAGNETIC CORE AND COIL PARAMETERS
+# ============================================================
+
+# Number of coil turns, N [-]
+N=200
+
+# Coil resistance, R [ohm]
+R=0.61
+
+# Mean magnetic path length in the ferromagnetic core, l_Fe [m]
+l_Fe=0.16
+
+# Effective magnetic cross-sectional area, A [m^2]
+A=0.004
+
+# Air-gap length, g [m]
+g=0.001
+
+
+# ============================================================
+# VOLTAGE SOURCE PARAMETERS
+# ============================================================
+
+# DC voltage offset [V]
+V_offset=0.0
+
+# Sinusoidal voltage amplitude [V]
+V_amplitude=290.0
+
+# Voltage frequency [Hz]
+V_frequency=50.0
+
+
+# ============================================================
+# SIMULATION PARAMETERS
+# ============================================================
+
+# Total simulation time measured from t = 0 [s]
+simulation_time=0.135
+
+# Time step [s]
+dt=0.000001
+
+
+# ============================================================
+# NONLINEAR SOLVER PARAMETERS
+# ============================================================
+
+# Tolerance for the electrical-equation residual F(H) [V]
+residual_tol=1.0e-9
+
+# Tolerance for magnetic field strength H [A/m]
+H_tol=1.0e-10
+
+# Maximum number of root-bracketing iterations [-]
+max_bracket_iter=80
+
+# Maximum number of bisection iterations [-]
+max_bisection_iter=120
+
+# Initial magnetic-field increment used to search for a root bracket [A/m]
+initial_H_step=6.0
